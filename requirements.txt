@@ -1,0 +1,13 @@
+numpy
+pandas
+opencv-python
+matplotlib
+seaborn
+jupyter
+pyyaml
+tqdm
+ultralytics
+supervision
+scikit-learn
+transformers
+faiss-cpu

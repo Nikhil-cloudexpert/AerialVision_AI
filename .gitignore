@@ -24,12 +24,8 @@ env/
 !.env.example
 
 # Datasets
-data/raw/*
-data/interim/*
-data/processed/*
-!data/raw/.gitkeep
-!data/interim/.gitkeep
-!data/processed/.gitkeep
+datasets/*
+!datasets/README.md
 
 # Model weights
 *.pt
@@ -53,3 +49,6 @@ checkpoints/
 .DS_Store
 Thumbs.db
 EOF
+# Experimental outputs
+runs/
+outputs/
